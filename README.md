@@ -1,5 +1,7 @@
 # horizon-project
 
+Website Link: https://horizon-rho.vercel.app
+
 ### Horizon project is a suit of services that compose up a web application to serve tv show media contents to users.
 ### Core Features:
 #### 1.Microservice Architecture.
@@ -24,6 +26,8 @@
 #### * Hub Database - MongoDB: A secondary database that holds data about reviews and suggestions which users create about shows.
 #### * Horizon Storage - Azure Storage: A premium-tier storage that contains all files related to content being served: images and TS files.
 #### * Event Bus - RabbitMQ: An event bus set up to satisfy event-driven pattern of the following relations: User Service - Hub Service; Show Service - Hub Service.
+
+![2022-03-29 22_12_00-Blank diagram_ Lucidchart - Brave](https://user-images.githubusercontent.com/70422635/160689807-50d7380b-c1dd-441c-9db4-0551a028cbae.png)
 
 #### The following lucid chart shows the overall architecture of the application:
 https://lucid.app/lucidchart/c8fb233e-7903-4fae-9492-bd475e95dfa7/edit?invitationId=inv_6ed20c5a-f153-4398-b092-bd027f05b3cc
